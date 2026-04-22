@@ -1,0 +1,33 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Node.js - curso avancado de JavasScript",
+  "keywords": [
+    "node",
+    "nodejs",
+    "javascript"
+  ],
+  "homepage": "https://github.com/MatheusCampelo-dev/Node#readme",
+  "bugs": {
+    "url": "https://github.com/MatheusCampelo-dev/Node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusCampelo-dev/Node.git"
+  },
+  "license": "MIT",
+  "author": "Matheus Campelo",
+  "type": "commonjs",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test2": "clear && echo 'Hello Script'",
+    "dev": "nodemon fundamentos/hello.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
